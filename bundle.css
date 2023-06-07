@@ -1,0 +1,30 @@
+/*!
+Theme Name: argil child
+Theme URI: https://github.com/argil-data/argil-wp-child
+Author: Argil Data Agency
+Author URI: https://argil-data.agency
+Template: argil-wp-theme
+Description: Argil WordPress Blocks here to serve you at best.
+Version: 1.0.0
+Requires PHP: 5.6
+Tested up to: 5.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: argil_child
+Tags: portfolio, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+*/
+
+body {
+    color: red !important;
+}
+
+body main h2.wp-block-heading.has-text-color, 
+main#main > h2.wp-block-heading,
+h2.wp-block-heading,
+h3.wp-block-heading {
+    color: fuchsia !important;
+    font-size: 1.75rem !important;
+}
